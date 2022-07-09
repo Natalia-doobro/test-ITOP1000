@@ -1,0 +1,42 @@
+.section{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.container:not(:last-child){
+    margin-bottom: 40px;
+}
+.input{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.4;
+    width: 500px;
+    height: 100px;
+    padding: 3px 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color:#013220;
+    border: 5px solid #004524;
+}
+.select{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.4;
+    width: 150px;
+    height: 100px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    background-color: #44ee9c;
+    border: 5px solid #004524;
+}
+
+.select:focus{
+    background-color: #7FFF00;
+    border: 2px solid #004524;
+}
+
+.option:hover {
+    background-color: #013220;
+    color: #44ee9c;
+}
