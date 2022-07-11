@@ -1,0 +1,9 @@
+[
+    {"id": "UAH", "value":"UAH"},
+    {"id": "USD", "value":"USD"},
+    {"id": "EUR", "value":"EUR"},
+    {"id": "GBP", "value":"GBP"},
+    {"id": "JPY", "value":"JPY"},
+    {"id": "CNY", "value":"CNY"},
+    {"id": "TRY", "value":"TRY"}
+]

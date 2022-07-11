@@ -1,9 +1,9 @@
-.footer{
-    position: fixed;
-    bottom: 20px;
-    left: 0px;
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 0px;
 
-    height: 80px;
-    width: 100%;
-    background-color: rgba(68, 148, 75, 0.8);
+  height: 80px;
+  width: 100%;
+  background-color: var(--bg-color);
 }

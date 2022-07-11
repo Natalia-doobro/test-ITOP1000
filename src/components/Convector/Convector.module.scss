@@ -1,0 +1,83 @@
+.section{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    @media screen and (max-width: 560px) {
+        left: 50%;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 560px) and (max-width: 759px) {
+        left: 40%;
+    }
+
+}
+.container:not(:last-child){
+    margin-bottom: 40px;
+}
+.input{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    height: 80px;
+    padding: 3px 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: var(--text-color);
+    border: 5px solid var(--border-color);
+
+    @media screen and (max-width: 759px) {
+        width: 200px;
+        margin-right: 0px;
+    }
+
+    @media screen and (min-width: 760px){
+        width: 300px;
+    }
+
+    @media screen and (min-width: 1120px){
+        font-size: 30px;
+        width: 500px;
+        height: 100px;
+    }
+
+    
+}
+.select{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.4;
+    height: 80px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    background-color: var(--dr-select-color);
+    border: 5px solid var(--border-color);
+
+    @media screen and (max-width: 559px) {
+        width: 200px;
+    }
+
+    @media screen and (min-width: 560px) and (max-width: 1119px) {
+        width: 120px;
+    }
+
+    @media screen and (min-width: 1120px){
+        font-size: 30px;
+        width: 150px;
+        height: 100px;
+    }
+
+
+    &:focus{
+    color: var(--hover-text-color);
+    background-color: var(--dr-hover-color);
+    border: 3px solid var(--border-hover-color);
+}
+
+}
+.option:hover {
+    background-color: #013220;
+    color: #44ee9c;
+}
